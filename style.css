@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;700&display=swap');
+body{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.main{
+    background-color: #1a112c;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.left > h1{
+    margin: 0;
+    font-size: 3vw;
+    color: #77ffc0;
+}
+.left-image{
+    width: 35vw;
+}
+.right{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bloco-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 35px;
+    background-color: #352b47;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+    width: 350px;
+}
+.bloco-login > h1{
+    color: #00ff88;
+    font-weight: 800;
+    margin: 0;
+}
+.input-field{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.input-field > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #6a5e7e;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px 5px 20px #00000056;
+    box-sizing: border-box;
+    outline: none;
+    margin-bottom: 10px;
+}
+.input-field > label{
+    color: #f0ffffde;
+    margin-bottom: 10px;
+}
+.input-field > input::placeholder{
+    color: #f0ffffde;
+}
+.btn-login{
+    width: 100%;
+    padding: 16px 16px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    font-weight: 800;
+    letter-spacing: 4px;
+    color: #1a112c;
+    background-color: #00ff88;
+    cursor: pointer;
+    box-shadow:0px 10px 40px #2a3a33 ;
+}
+
+
+@media only screen and (max-width: 900px){
+    .main{
+        flex-direction: column;
+        
+    }
+    .left-image{
+        width: 60vw;
+        margin-bottom: 5vw;
+    }
+    .left > h1{
+        display: none;
+    }
+    .left{
+        width: 100%;
+        height: auto;
+    }
+    .right{
+        width: 100%;
+        height: auto;
+    }
+    .bloco-login{
+        width: 70%;
+    }
+}
