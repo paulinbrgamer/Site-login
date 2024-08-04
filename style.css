@@ -118,6 +118,7 @@ body{
         height: auto;
     }
     .bloco-login{
+        box-sizing: border-box;
         width: 50%;
         height: 35vh;
     }
