@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;700&display=swap');
 body{
     margin: 0;
+
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .main{
@@ -44,7 +45,7 @@ body{
     background-color: #352b47;
     border-radius: 20px;
     box-shadow: 0px 10px 40px #00000056;
-    width: 350px;
+    width: 380px;
 }
 .bloco-login > h1{
     color: #00ff88;
@@ -103,7 +104,7 @@ body{
     }
     .left-image{
         width: 60vw;
-        margin-bottom: 5vw;
+        margin-bottom: 5vh;
     }
     .left > h1{
         display: none;
@@ -117,6 +118,7 @@ body{
         height: auto;
     }
     .bloco-login{
-        width: 70%;
+        width: 50%;
+        height: 35vh;
     }
 }
